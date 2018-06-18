@@ -1,0 +1,63 @@
+PODS:
+  - ADALiOS (1.2.6)
+  - Alamofire (3.3.1)
+  - box-ios-sdk (1.0.11):
+    - box-ios-sdk/logger (= 1.0.11)
+    - box-ios-sdk/no-arc (= 1.0.11)
+  - box-ios-sdk/logger (1.0.11)
+  - box-ios-sdk/no-arc (1.0.11):
+    - box-ios-sdk/logger
+  - Google (2.0.4):
+    - Google/Core (= 2.0.4)
+  - Google/Core (2.0.4):
+    - GoogleInterchangeUtilities (~> 1.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.1)
+  - GoogleInterchangeUtilities (1.2.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleNetworkingUtilities (1.2.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleSymbolUtilities (1.1.0)
+  - GoogleUtilities (1.3.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - OneDriveSDK (1.1.2):
+    - OneDriveSDK/Auth (= 1.1.2)
+    - OneDriveSDK/Common (= 1.1.2)
+    - OneDriveSDK/Extensions (= 1.1.2)
+    - OneDriveSDK/Implementations (= 1.1.2)
+    - OneDriveSDK/OneDriveCoreSDK (= 1.1.2)
+  - OneDriveSDK/Auth (1.1.2):
+    - ADALiOS (~> 1.2.4)
+    - OneDriveSDK/Common
+  - OneDriveSDK/Common (1.1.2)
+  - OneDriveSDK/Extensions (1.1.2):
+    - OneDriveSDK/Auth
+    - OneDriveSDK/Implementations
+    - OneDriveSDK/OneDriveCoreSDK
+  - OneDriveSDK/Implementations (1.1.2):
+    - OneDriveSDK/Common
+  - OneDriveSDK/OneDriveCoreSDK (1.1.2):
+    - OneDriveSDK/Common
+  - SwiftyDropbox (3.0.0):
+    - Alamofire (~> 3.1)
+
+DEPENDENCIES:
+  - box-ios-sdk
+  - Google
+  - OneDriveSDK
+  - SwiftyDropbox
+
+SPEC CHECKSUMS:
+  ADALiOS: ddfa6d7acf8e7d58e0d813ec5eec857c59f72fcc
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  box-ios-sdk: a34a7c130e83e3d2380d2f6c1f16e589ba7788ba
+  Google: d0932824c5b97c96be489aa6f4e8cd6c294d637d
+  GoogleInterchangeUtilities: 427382e42d8a340038bec37c6fdfd316e14b5fa2
+  GoogleNetworkingUtilities: ec1e9911aca811eb18b7144394fee6168b607785
+  GoogleSymbolUtilities: eb3965ea12710569c7b80db198a39e39b18613f7
+  GoogleUtilities: 5c653f7df2eedf0ce0efdfe5afe4f831f375fd7a
+  OneDriveSDK: 2ba8787756deef12e787ee5dae6cb60e9dc7a6a9
+  SwiftyDropbox: e0d4aa3166082ec07ed942e94edb8c732b3376e4
+
+COCOAPODS: 0.39.0
